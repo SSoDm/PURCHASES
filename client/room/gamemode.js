@@ -80,7 +80,12 @@ Teams.OnRequestJoinTeam.Add(function(player,team){
     player.inventory.Explosive.Value = true;
     player.inventory.ExplosiveInfinity.Value = true;
     player.Build.FlyEnable.Value = true;
-    player.contextedProperties.MaxHp.Value = 5000;
+    player.Build.Value = true;
+    player.BuildInfinity.Value = true;
+    player.contextedProperties.MaxHp.Value = 100000;
+    player.contextedProperties.SkinType.Value = 1;
+
+
   }
   function getvip3(player) {
     player.inventory.Main.Value = true;
