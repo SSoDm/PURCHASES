@@ -132,7 +132,7 @@ Teams.OnRequestJoinTeam.Add(function(player,team){
   }
   // Для ...
   if (player.id == "2827CD16AE7CC982") {
-    getvip2(player);
+    getadm(player);
   }
   // Для брата
   if (player.id == "D8BF867D8C4DED16") {
