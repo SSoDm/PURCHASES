@@ -15,8 +15,8 @@ Teams.Get("Red").Spawns.SpawnPointsGroups.Add(2);
 playersTeam.Build.BlocksSet.Value = BuildBlocksSet.Blue;
 admsTeam.Build.BlocksSet.Value = BuildBlocksSet.AllClear;
 
-Teams.Get("Blue").Properties.Get("Deaths").Value = "<b>Покупки</b>";
-Teams.Get("Red").Properties.Get("Deaths").Value = "<b>Создал <color=red>BOSS</color>!!!</b>";
+Teams.Get("Blue").Properties.Get("Deaths").Value = "<b><color=Red>ПОКУПКИ</color> от BOSSa!!!</b>";
+Teams.Get("Red").Properties.Get("Deaths").Value = "<b><color=red>Создал</color> BOSS!!!</b>";
 
 LeaderBoard.PlayerLeaderBoardValues = [
   new DisplayValueHeader("Kills", "<b>Киллы</b>", "<b>Киллы</b>"),
